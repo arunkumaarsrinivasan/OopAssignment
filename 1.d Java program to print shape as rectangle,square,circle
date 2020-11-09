@@ -1,0 +1,27 @@
+class Shape{
+  void print_shape(){
+    System.out.println("This is shape");
+  }
+}
+class Rectangle extends Shape{
+  public void print_rect(){
+    System.out.println("This is rectangular shape");
+  }
+}
+class Circle extends Shape{
+  public void print_circle(){
+    System.out.println("This is circular shape");
+  }
+}
+class Object extends Rectangle{
+  public void print_Object(){
+    System.out.println("Object is a rectangle");
+  }
+}
+class Test{
+  public static void main(String[] args){
+    Object sq = new Object();  
+    sq.print_shape();   
+    sq.print_rect();    
+  }
+}
