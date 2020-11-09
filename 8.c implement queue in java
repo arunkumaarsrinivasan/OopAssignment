@@ -1,0 +1,11 @@
+import java.util.*;
+class A
+{
+public static void main(String args[])
+{
+Queue<String> q=new LinkedList<String>();
+q.add("Aakash");
+q.offer("Abishek");
+System.out.println(q);
+}
+}
