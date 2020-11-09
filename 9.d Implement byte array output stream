@@ -1,0 +1,18 @@
+import java.io.ByteArrayOutputStream;
+public class A
+{
+public static void main(String args[])
+{
+try
+{
+String s=“Welcome";
+byte[] array=new byte[100];
+array=s.getBytes();
+ByteArrayOutputStream out=new ByteArrayOutputStream();
+out.write(array);
+System.out.println(out);
+}
+catch(Exception e)
+{
+System.out.println(e);
+} }}              
