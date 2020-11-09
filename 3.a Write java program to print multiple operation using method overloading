@@ -1,0 +1,26 @@
+class A 
+{ 
+void add(int a, int b) 
+{ 
+System.out.println("sum ="+(a+b)); 
+} 
+void add(int a, double b) 
+{ 
+System.out.println("sum ="+(a+b)); 
+} 
+void add(int a, int b, int c) 
+{ 
+System.out.println("sum ="+(a+b+c)); 
+} 
+} 
+class B 
+{ 
+public static void main(String 
+args[]) 
+{ 
+A o=new A(); 
+o.add(2,3); 
+o.add(2,3.5); 
+o.add(2,3,4); 
+}
+}
