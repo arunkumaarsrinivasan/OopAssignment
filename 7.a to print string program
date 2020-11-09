@@ -1,0 +1,12 @@
+class A 
+{ 
+public static void main(String args[]) 
+{ 
+String s1="hi"; 
+char[] s2={'h','i'}; 
+String s3=new String("hi"); 
+System.out.println(s1); 
+System.out.println(s2); 
+System.out.println(s3); 
+}
+}
