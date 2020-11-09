@@ -1,0 +1,49 @@
+class A 
+{ 
+int a=10,b=20; 
+void display() 
+{ 
+System.out.println("a="+a); 
+System.out.println("b="+b); 
+}
+} 
+class B extends A 
+{ 
+int x; 
+void add() 
+{ 
+x=a+b; 
+System.out.println("add="+x); 
+} 
+} 
+class C extends A 
+{ 
+int y; 
+void sub() 
+{ 
+y=a+b; 
+System.out.println("sub 
+="+y); 
+} 
+} 
+class D extends A 
+{ 
+int z; 
+void mul() 
+{ 
+z=a*b; 
+System.out.println("mul 
+="+z); 
+} 
+public static void 
+main(String[] args) 
+{ 
+B o1=new B(); 
+o1.display(); 
+o1.add(); 
+C o2=new C(); 
+o2.sub(); 
+D o3= new D(); 
+o3.mul(); 
+}
+}
