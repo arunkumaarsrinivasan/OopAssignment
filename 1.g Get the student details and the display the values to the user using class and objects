@@ -1,0 +1,20 @@
+class Student 
+{ 
+int rollno=1; 
+String nam="arunkumar"; 
+int mark=90; 
+void display() 
+{ 
+System.out.println("rollno="+rollno); 
+System.out.println("name="+nam); 
+System.out.println("mark="+mark); 
+} 
+} 
+class Sample 
+{ 
+public static void main(String args[]) 
+{ 
+Student o=new Student(); 
+o.display(); 
+}
+}
