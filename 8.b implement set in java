@@ -1,0 +1,16 @@
+import java.util.*; 
+
+public class SetExample{ 
+
+    public static void main(String[] args) 
+
+    { 
+        Set<String> hash_Set = new HashSet<String>(); 
+        hash_Set.add("a"); 
+        hash_Set.add("b"); 
+        hash_Set.add("c"); 
+        hash_Set.add("d"); 
+        hash_Set.add("Set"); 
+        System.out.println(hash_Set); 
+
+    } 
